@@ -1,0 +1,21 @@
+<mvc:View controllerName="SAP-UI5-Fiori-3_Named_JSONModel.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Label text="ID"></Label>
+					<Input value="{/student/CE/1/id}"></Input>      
+					<Label text="Name"></Label>
+					<Input value="{/student/CE/1/name}"></Input>
+					<Label text="Company"></Label>
+					<Input value="{/student/CE/1/company}"></Input>
+					<Label text="Age"></Label>
+					<Input value="{/student/CE/1/age}"></Input>
+					<Label text="Branch"></Label>
+					<Input value="{Branch>/student/branch}"></Input>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
